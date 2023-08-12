@@ -1,0 +1,17 @@
+		 Bienvenue au Supermarché Jidanel
+ Numero Facture : 5828
+***************************************************************************
+
+	Articles		Quantité 		Prix
+***************************************************************************
+	sebago		8		80000
+
+
+
+
+***************************************************************************
+ Total Brute : 		 cfa 80000.00
+ Taxe : 		 0.02
+ Total à Payer : 		 cfa 81540.00
+
+ Merci d'être passé chez nous Mr/Mme Nsas 	 Contact : 670414858

@@ -1,0 +1,20 @@
+		 Bienvenue au Supermarché Jidanel
+ Numero Facture : 7737
+***************************************************************************
+
+	Articles		Quantité 		Prix
+
+***************************************************************************
+	core i3		2		210000
+
+
+
+
+***************************************************************************
+
+ Nom du client : Nsas
+ Telephone : 693311179
+ Total Brute : 		 cfa 210000.00
+ Taxe : 		 0.02
+ Total à Payer : 		 cfa 214042.50
+ Merci d'être passé chez nous !!

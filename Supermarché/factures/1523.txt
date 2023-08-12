@@ -1,0 +1,19 @@
+		 Bienvenue au Supermarché Jidanel
+ Numero Facture : 1523
+***************************************************************************
+
+	Articles		Quantité 		Prix
+***************************************************************************
+	Nido		3		16500
+
+
+
+
+***************************************************************************
+
+ Nom du client : Odile
+ Telephone : 670414858
+ Total Brute : 		 cfa 16500.00
+ Taxe : 		 0.02
+ Total à Payer : 		 cfa 16817.62
+ Merci d'être passé chez nous !!

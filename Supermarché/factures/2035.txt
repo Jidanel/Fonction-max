@@ -1,0 +1,17 @@
+		 Bienvenue au Supermarché Jidanel
+ Numero Facture : 2035
+***************************************************************************
+
+	Articles		Quantité 		Prix
+***************************************************************************
+	vera wang		10		150000
+
+
+
+
+***************************************************************************
+ Total Brute : 		 cfa 150000.00
+ Taxe : 		 0.02
+ Total à Payer : 		 cfa 152887.50
+
+ Merci d'être passé chez nous Mr/Mme Nsas 	 Contact : 670414858
