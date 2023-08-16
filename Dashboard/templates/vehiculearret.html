@@ -52,8 +52,8 @@
     </div>
     </nav>
     <!-- End Navbar-->
-     <!--topside-->
-     <div class="container">
+    <!--topside-->
+    <div class="container">
       <div class="row mt-4"> <!--mt-4=margin top 4-->
           <div class="col-md-4">  <!--col-mt-4=regroupe 4 colonnes de taille 1-->
               <div class="card">
@@ -74,7 +74,6 @@
                 </div>
                 <div class="card-body my-4">
                   <div class="row">
-                    <!--chauffeurs-->
                     <!--chauffeurs-->
                     <div class="col-md-3">
                       <a class= "text-decoration-none text-black" href="staff.html">
@@ -126,71 +125,37 @@
       <!--Tables-->
       <div class="container">
         <div class="row my-4">
-          <div class="col-md-4">
-            <div class="border bg-white p-3">
-              <h4> Ajouter un chauffeur </h4>
-              <hr>
-              <form action="">
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Noms et prenoms</label>
-                  <input type="text" class="form-control" id="exampleFormControlInput1">
-                  <label for="exampleFormControlInput1" class="form-label">Permis </label>
-                  <input type="text" class="form-control" id="exampleFormControlInput1">
-                  <label for="exampleFormControlInput1" class="form-label">Vehicule </label>
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>Selectionner...</option>
-                    <option value="1">CE1234O</option>
-                    <option value="2">NO1254P</option>
-                    <option value="3">LT7638I</option>
-                    <option value="4">ES2596Q</option>
-                    <option value="5">NW1754V</option>
-                    <option value="6">EN7674S</option>
-                  </select>
-                </div>
-                <div>
-                  <label for="exampleFormControlInput1" class="form-label">Kilometrage </label>
-                  <input type="text" class="form-control" id="exampleFormControlInput1">
-                  <label for="exampleFormControlInput1" class="form-label">Statut</label>
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>Selectionner...</option>
-                    <option value="1">Disponible</option>
-                    <option value="2">En arrêt</option>
-                    <option value="3">En permission</option>
-                    <option value="4">En congé</option>
-                    <option value="5">Occupé</option>
-                  </select>
-                  <br>
-                </div>
-               
-                <input class="btn btn-success btn-block" type="submit" value="Ajouter un Chauffeur">
-              </form>
-          </div>
-
-            </div>
-           
+          <div class="col-md-4"></div>
             <div class="col-md-8">
               <table class="table ">
                 <thead class="table-dark">
                       <tr>
                         <th scope="col">N°</th>
-                        <th scope="col">Info</th>
-                        <th scope="col">Noms et Prenoms</th>
-                        <th scope="col">Permis</th>
-                        <th scope="col">Vehicule</th>
-                        <th scope="col">Kilometrage (Km)</th>
-                        <th scope="col">Status</th>
+                        <th scope="col">View</th>
+                        <th scope="col">Immatriculation</th>
+                        <th scope="col">Categorie</th>
+                        <th scope="col">Marque</th>
+                        <th scope="col">Modele</th>
+                        <th scope="col">Utilisation</th>
+                        <th scope="col">Carburant</th>
+                        <th scope="col">KM Initial</th>
+                        <th scope="col">KM actuel</th>
+                        <th scope="col">Etat</th>
                         <th scope="col">Action</th>
-                        
                       </tr>
                     </thead>
                     <tbody class="table-group-divider">
                       <tr>
                         <th scope="row">1</th>
                         <td scope="col"><a class="btn btn-info btn-sm bg-info" href="">View</a></td>
-                        <td>Mark</td>
-                        <td>B</td>
-                        <td>CE1234</td>
-                        <td>5000</td>
+                        <td>CE1234D</td>
+                        <td>Tourisme</td>
+                        <td>Toyota</td>
+                        <td>Berline</td>
+                        <td>Publique</td>
+                        <td>Essence</td>
+                        <td>50000</td>
+                        <td>76600</td>
                         <td>Disponible</td>
                         <td>
                           <a class="btn btn-info btn-sm bg-success text-white" href=""> <!--btn sm pour dire small btn-info pour dire bouton-->
@@ -204,10 +169,14 @@
                       <tr>
                         <th scope="row">2</th>
                         <td scope="col"><a class="btn btn-info btn-sm bg-info" href="">View</a></td>
-                        <td>Paul</td>
-                        <td>B</td>
                         <td>LT1234E</td>
-                        <td>4400</td>
+                        <td>Tourisme</td>
+                        <td>Toyota</td>
+                        <td>SUV</td>
+                        <td>Publique</td>
+                        <td>Essence</td>
+                        <td>34890</td>
+                        <td>39400</td>
                         <td>Disponible</td>
                         <td>
                           <a class="btn btn-info btn-sm bg-success text-white" href=""> <!--btn sm pour dire small btn-info pour dire bouton-->
@@ -221,11 +190,15 @@
                       <tr>
                         <th scope="row">3</th>
                         <td scope="col"><a class="btn btn-info btn-sm bg-info" href="">View</a></td>
-                        <td>Larry</td>
-                        <td>D</td>
                         <td>NO5897K</td>
-                        <td>8456</td>
-                        <td>Arret</td>
+                        <td>Transport</td>
+                        <td>Toyota</td>
+                        <td>Coaster</td>
+                        <td>Publique</td>
+                        <td>Diesel</td>
+                        <td>102580</td>
+                        <td>130000</td>
+                        <td>En panne</td>
                         <td>
                           <a class="btn btn-info btn-sm bg-success text-white" href=""> <!--btn sm pour dire small btn-info pour dire bouton-->
                             Edit

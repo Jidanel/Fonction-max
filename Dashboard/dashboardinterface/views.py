@@ -11,3 +11,9 @@ def staff(request):
 
 def vehicules(request):
     return render(request,'vehicules.html') 
+
+def vehiculearret(request):
+    return render(request,'vehiculearret.html')
+
+def vehiculeoccupe(request):
+    return render(request,'vehiculeoccupe.html')

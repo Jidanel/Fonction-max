@@ -74,36 +74,46 @@
                 </div>
                 <div class="card-body my-4">
                   <div class="row">
-                    <!--chauffeurs-->
-                    <div class="col-md-4">
-                      <a class= "text-decoration-none text-black" href="staff.html">
+                   <!--chauffeurs-->
+                   <div class="col-md-3">
+                    <a class= "text-decoration-none text-black" href="staff.html">
+                      <div class="card text-center shadow p-3 symbole"> <!--text-center pour centrer le texte, p-3 paddin 3-->
+                        <h3>Chauffeurs <i class="fas fa-users"></i> </h3> <!--fas fa-users logo des utilisateurs donné dans l'entete awesomecdn-->
+                        <h3>10</h3>
+                      </div>
+                    </a>
+                  </div>
+                  <!--End chauffeurs box-->
+                  <!--vehicules box-->
+                  <div class="col-md-3">
+                    <a class= "text-decoration-none text-black" href="vehicules.html">
+                      <div class="card text-center shadow p-3 symbole"> <!--text-center pour centrer le texte, p-3 paddin 3-->
+                        <h3> Flotte Auto <i class="fas fa-car"></i> </h3> <!--fas fa-box logo des produits donné dans l'entete awesomecdn-->
+                        <h3>10</h3>
+                      </div>
+                    </a>
+                  </div>
+                  <!--End vehicules-->
+                  <!--Vehicules en arret-->
+                  <div class="col-md-3">
+                      <a class= "text-decoration-none text-black" href="vehiculearret.html">
                         <div class="card text-center shadow p-3 symbole"> <!--text-center pour centrer le texte, p-3 paddin 3-->
-                          <h4>Chauffeurs <i class="fas fa-users"></i> </h4> <!--fas fa-users logo des utilisateurs donné dans l'entete awesomecdn-->
+                          <h3> Vehicules en arret <i class="fas fa-bus"></i> </h3> <!--fas fa--shipping-fast logo des utilisateurs donné dans l'entete awesomecdn-->
                           <h3>10</h3>
                         </div>
                       </a>
                     </div>
-                    <!--chauffeurs box-->
-                    <!--vehicules box-->
-                    <div class="col-md-4">
-                      <a class= "text-decoration-none text-black" href="vehicules.html">
-                        <div class="card text-center shadow p-3 symbole"> <!--text-center pour centrer le texte, p-3 paddin 3-->
-                          <h4> Vehicules <i class="fas fa-box"></i> </h4> <!--fas fa-box logo des produits donné dans l'entete awesomecdn-->
-                          <h3>10</h3>
-                        </div>
-                      </a>
-                    </div>
-                    <!--End vehicules-->
+                    <!--End Vehicules en arret-->
                     <!--Vehicules en deplacement-->
-                    <div class="col-md-4">
-                      <a class= "text-decoration-none text-black" href="">
+                  <div class="col-md-3">
+                      <a class= "text-decoration-none text-black" href="vehiculeoccupe.html">
                         <div class="card text-center shadow p-3 symbole"> <!--text-center pour centrer le texte, p-3 paddin 3-->
-                          <h4> Vehicules en déplacement <i class="fas fa-shipping-fast"></i> </h4> <!--fas fa--shipping-fast logo des utilisateurs donné dans l'entete awesomecdn-->
+                          <h3> Vehicules occupés <i class="fas fa-shipping-fast"></i> </h3> <!--fas fa--shipping-fast logo des utilisateurs donné dans l'entete awesomecdn-->
                           <h3>10</h3>
                         </div>
                       </a>
                     </div>
-                    <!--End Vehicules en deplacements-->
+                    <!--End Vehicules en deplacement-->
                   </div>
                 </div>
             </div>
@@ -121,6 +131,7 @@
                 <thead class="table-dark">
                       <tr>
                         <th scope="col">N°</th>
+                        <th scope="col">View</th>
                         <th scope="col">Immatriculation</th>
                         <th scope="col">Categorie</th>
                         <th scope="col">Marque</th>
@@ -130,11 +141,13 @@
                         <th scope="col">KM Initial</th>
                         <th scope="col">KM actuel</th>
                         <th scope="col">Etat</th>
+                        <th scope="col">Action</th>
                       </tr>
                     </thead>
                     <tbody class="table-group-divider">
                       <tr>
                         <th scope="row">1</th>
+                        <td scope="col"><a class="btn btn-info btn-sm bg-info" href="">View</a></td>
                         <td>CE1234D</td>
                         <td>Tourisme</td>
                         <td>Toyota</td>
@@ -144,9 +157,18 @@
                         <td>50000</td>
                         <td>76600</td>
                         <td>Disponible</td>
+                        <td>
+                          <a class="btn btn-info btn-sm bg-success text-white" href=""> <!--btn sm pour dire small btn-info pour dire bouton-->
+                            Edit
+                          </a>
+                          <a class="btn btn-info btn-sm bg-danger text-white" href=""> <!--btn sm pour dire small btn-info pour dire bouton-->
+                            Delete
+                          </a>
+                        </td>
                       </tr>
                       <tr>
                         <th scope="row">2</th>
+                        <td scope="col"><a class="btn btn-info btn-sm bg-info" href="">View</a></td>
                         <td>LT1234E</td>
                         <td>Tourisme</td>
                         <td>Toyota</td>
@@ -156,9 +178,18 @@
                         <td>34890</td>
                         <td>39400</td>
                         <td>Disponible</td>
+                        <td>
+                          <a class="btn btn-info btn-sm bg-success text-white" href=""> <!--btn sm pour dire small btn-info pour dire bouton-->
+                            Edit
+                          </a>
+                          <a class="btn btn-info btn-sm bg-danger text-white" href=""> <!--btn sm pour dire small btn-info pour dire bouton-->
+                            Delete
+                          </a>
+                        </td>
                       </tr>
                       <tr>
                         <th scope="row">3</th>
+                        <td scope="col"><a class="btn btn-info btn-sm bg-info" href="">View</a></td>
                         <td>NO5897K</td>
                         <td>Transport</td>
                         <td>Toyota</td>
@@ -168,6 +199,14 @@
                         <td>102580</td>
                         <td>130000</td>
                         <td>En panne</td>
+                        <td>
+                          <a class="btn btn-info btn-sm bg-success text-white" href=""> <!--btn sm pour dire small btn-info pour dire bouton-->
+                            Edit
+                          </a>
+                          <a class="btn btn-info btn-sm bg-danger text-white" href=""> <!--btn sm pour dire small btn-info pour dire bouton-->
+                            Delete
+                          </a>
+                        </td>
                       </tr>
                     </tbody>
                   </table>
