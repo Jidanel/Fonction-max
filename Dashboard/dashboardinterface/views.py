@@ -9,5 +9,5 @@ def index(request):
 def staff(request):
     return render(request,'staff.html')
 
-def products(request):
-    return render(request,'products.html') 
+def vehicules(request):
+    return render(request,'vehicules.html') 

@@ -30,7 +30,7 @@
     <nav class="navbar navbar-expand-lg bg-info navbar-info"> <!--bg-info et navbar-info cest pour donner la couleur bleu au navbar-->
         <div class="container">
             <div class="container-fluid">
-             <a class="navbar-brand text-white" href="index.html">LOGESFLAUT</a> <!--text-white permet de transformer l'element en couleur blanche-->
+             <a class="navbar-brand text-white" href="index.html"><h3><b>LOGESFLAUT</b></a></h3> <!--text-white permet de transformer l'element en couleur blanche-->
              
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -70,40 +70,40 @@
             <div class="col-md-8">  <!--col-mt-8=regroupe 8 colonnes de taille 1-->
               <div class="card">
                   <div class="card-header bg-info text-white"> <!--card header pour l'en tete du tableau-->
-                      Statistics
+                      Statistiques
                   </div>
                   <div class="card-body my-4">
                     <div class="row">
-                      <!--Staff box-->
+                      <!--chauffeurs-->
                       <div class="col-md-4">
                         <a class= "text-decoration-none text-black" href="staff.html">
                           <div class="card text-center shadow p-3 symbole"> <!--text-center pour centrer le texte, p-3 paddin 3-->
-                            <h4> Staff <i class="fas fa-users"></i> </h4> <!--fas fa-users logo des utilisateurs donné dans l'entete awesomecdn-->
+                            <h4>Chauffeurs <i class="fas fa-users"></i> </h4> <!--fas fa-users logo des utilisateurs donné dans l'entete awesomecdn-->
                             <h3>10</h3>
                           </div>
                         </a>
                       </div>
-                      <!--End Staff box-->
-                      <!--Produits box-->
+                      <!--chauffeurs box-->
+                      <!--vehicules box-->
                       <div class="col-md-4">
-                        <a class= "text-decoration-none text-black" href="products.html">
+                        <a class= "text-decoration-none text-black" href="vehicules.html">
                           <div class="card text-center shadow p-3 symbole"> <!--text-center pour centrer le texte, p-3 paddin 3-->
-                            <h4> Products <i class="fas fa-box"></i> </h4> <!--fas fa-box logo des produits donné dans l'entete awesomecdn-->
+                            <h4> Vehicules <i class="fas fa-box"></i> </h4> <!--fas fa-box logo des produits donné dans l'entete awesomecdn-->
                             <h3>10</h3>
                           </div>
                         </a>
                       </div>
-                      <!--End Produits box-->
-                      <!--Order box-->
+                      <!--End vehicules-->
+                      <!--Vehicules en deplacement-->
                       <div class="col-md-4">
                         <a class= "text-decoration-none text-black" href="">
                           <div class="card text-center shadow p-3 symbole"> <!--text-center pour centrer le texte, p-3 paddin 3-->
-                            <h4> Orders <i class="fas fa-shipping-fast"></i> </h4> <!--fas fa--shipping-fast logo des utilisateurs donné dans l'entete awesomecdn-->
+                            <h4> Vehicules en déplacement <i class="fas fa-shipping-fast"></i> </h4> <!--fas fa--shipping-fast logo des utilisateurs donné dans l'entete awesomecdn-->
                             <h3>10</h3>
                           </div>
                         </a>
                       </div>
-                      <!--End order box-->
+                      <!--End Vehicules en deplacements-->
                     </div>
                   </div>
               </div>
@@ -127,12 +127,12 @@
                   var ctx = document.getElementById('myChart1');
                 
                   var myChart1= new Chart(ctx, {
-                    type: 'pie',
+                    type: 'bar',
                     data: {
                       labels: ['Janv', 'Fev', 'Mars', 'Avril', 'Mai', 'Juin','Juil','Aout','Sept','Oct','Nov','Dec'],
                       datasets: [{
-                        label: 'Products',
-                        data: [12, 19, 3, 5, 2, 3, 3, 10, 9, 7, 5, 4],
+                        label: 'Kilometrage parcouru par les vehicules (KM)',
+                        data: [120000, 190000, 300000, 558000, 213200, 300200, 341000, 100000, 90000, 70000, 54000, 49500],
                         backgroundColor: [
                                           'rgba(255, 99, 132, 1)',
                                           'rgba(54, 162, 235, 1)',
@@ -192,8 +192,8 @@
                   data: {
                     labels: ['Janv', 'Fev', 'Mars', 'Avril', 'Mai', 'Juin','Juil','Aout','Sept','Oct','Nov','Dec'],
                     datasets: [{
-                      label: 'Products',
-                      data: [12, 19, 3, 5, 2, 3, 3, 10, 9, 7, 5, 4],
+                      label: 'Consommation de carburant (Litres)',
+                      data: [1200, 1900, 305, 558, 2148, 3014, 3320, 10000, 9850, 7000, 5250, 4000],
                       backgroundColor: [
                                         'rgba(255, 99, 132, 1)',
                                         'rgba(54, 162, 235, 1)',
