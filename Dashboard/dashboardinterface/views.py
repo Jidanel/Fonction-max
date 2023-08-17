@@ -17,3 +17,6 @@ def vehiculearret(request):
 
 def vehiculeoccupe(request):
     return render(request,'vehiculeoccupe.html')
+
+def profile(request):
+    return render(request,'profile.html')

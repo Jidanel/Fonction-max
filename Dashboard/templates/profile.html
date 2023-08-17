@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Profile </title>
+      <!-- CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+      <!--End CSS-->
+        <!--FontAwesome CDN-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+        <!--End FontAwesome CDN-->
+        <!--ChartJS CDN-->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.3/dist/chart.umd.min.js"></script>
+        <!-- Fichier css de configuration local-->
+        <style>
+          body{
+    background:rgb(230, 227, 227);
+              }  
+          .symbole:hover{
+            transform: scale(1.1);   /* Permet d'ajouter un effet au passage de la souris*/
+            transition: 0.2s ease-in-out;
+          }
+        </style>
+  </head>
+  <body>
+    
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg bg-info navbar-info"> <!--bg-info et navbar-info cest pour donner la couleur bleu au navbar-->
+        <div class="container">
+            <div class="container-fluid">
+             <a class="navbar-brand text-white" href="#">LOGESFLAUT</a> <!--text-white permet de transformer l'element en couleur blanche-->
+             
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 <li class="nav-item">
+                 <a class="nav-link active text-white" aria-current="page" href="index.html">Dashboard</a>
+                 </li>
+                
+              </ul>
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0"> <!--ml-auto=margin left auto a permis daligner le texte à droite-->
+                <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="profile.html">Admin</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link text-white"  href="#">log Out</a>
+                </li>
+           </ul>
+          </div>
+        </div>
+    </div>
+    </nav>
+    <!-- End Navbar-->
+
+
+      <!--Tables-->
+      <div class="container">
+        <div class="row my-4">
+          <div class="col-md-4">
+          </div>
+            <div class="col-md-8">
+              <div class="card">
+                <div class="card-header bg-info text-white">
+                  Profil Utilisateur
+                </div>
+                <div class="card-body ">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <span class="h4"> Informations sur le profil utilisateur </span>
+                      <a class="btn btn-info btn-sm bg-info text-white float-end " href="">Edit</a> <!--float end met l'element à l'extreme droite du bloc--> 
+                      <hr>
+                      <table class="table  table-borderless">
+                              <tr>
+                                <th>Noms</th>
+                                <td>Admin</td>
+                              </tr>
+                              <tr>
+                                <th>Email</th>
+                                <td>Jdanielnsas@yahoo.com</td>
+                              </tr>
+                              <tr>
+                                <th>Phone</th>
+                                <td>+237670414858</td>
+                              </tr>
+                              <tr>
+                                <th>Adresse</th>
+                                <td>Yaounde</td>
+                              </tr>
+                          </table>
+                    </div>
+                    <div class="col-md-4">
+                      <img class="img-thumbnail" src="file:///E:/JD/Mon%20Contenu/Mes%20cours%20d'info/Projects%20Python/Dashboard/media/homme2.jpg" alt="">
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              
+            </div>
+          
+        
+        </div>
+      </div>
+      <!--End Tables-->
+    <!-- Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+      <!--End Javascript-->
+</body>
+</html>
